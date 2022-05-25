@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KazaQuiz">
         <activity
-            android:name=".MainActivity"
+            android:name=".activityCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".activityLogin"
+            android:exported="false" />
+        <activity
+            android:name=".activityTelaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
