@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class activityLogin extends AppCompatActivity {
     private EditText txtEmail,txtSenha;
@@ -69,6 +70,13 @@ public class activityLogin extends AppCompatActivity {
                 }
             }
         });
+    }
+    protected void onStart(){
+        super.onStart();
+        FirebaseUser usuarioAtual = FirebaseAuth.getInstance().getCurrentUser();
+        if(usuarioAtual != null){
+            telaPrincipal();
+        }
     }
     private void telaPrincipal(){
         Intent intent = new Intent(activityLogin.this,activityTelaPrincipal.class);
