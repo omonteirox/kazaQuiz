@@ -126,7 +126,7 @@
         app:layout_constraintVertical_bias="0.248"
         tools:ignore="TextContrastCheck" />
 
-    <EditText
+    <com.santalu.maskara.widget.MaskEditText
         android:id="@+id/txtLabelNasc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,7 +137,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelDataNasc" />
+        app:layout_constraintTop_toBottomOf="@+id/labelDataNasc"
+        app:mask="__/__/____"
+        app:maskCharacter="_"
+        app:maskStyle="completable"
+        />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
