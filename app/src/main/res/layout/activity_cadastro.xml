@@ -8,8 +8,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/logoCircular"
-        android:layout_width="312dp"
-        android:layout_height="262dp"
+        android:layout_width="261dp"
+        android:layout_height="195dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/pinterest_profile_image"
         app:civ_border_color="#101010"
@@ -35,7 +35,7 @@
         android:id="@+id/labelNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/nome"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +78,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/labelEmail"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/txtLabelNome"
@@ -91,21 +92,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelNome" />
+        app:layout_constraintTop_toBottomOf="@+id/labelNome"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <EditText
-        android:id="@+id/txtLabelNasc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:background="#F3F3F3"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
 
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelDataNasc" />
 
     <EditText
         android:id="@+id/txtLabelSenha"
@@ -118,13 +108,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/labelSenha"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
         android:backgroundTint="#45C8DA"
         android:text="@string/fazer_cadastro"
         android:textColor="@color/black"
@@ -132,9 +122,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoCircular"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelNasc"
+        app:layout_constraintVertical_bias="0.248"
         tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtLabelNasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#F3F3F3"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelDataNasc" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

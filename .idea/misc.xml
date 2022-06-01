@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gussm/Faculdade/KazaQuiz(GitHub)/app/src/main/res/layout/activity_cadastro.xml" value="0.3625" />
+        <entry key="..\:/Users/gussm/Faculdade/KazaQuiz(GitHub)/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/gussm/Faculdade/KazaQuiz(GitHub)/app/src/main/res/layout/activity_tela_inicial.xml" value="0.3625" />
+        <entry key="..\:/Users/gussm/Faculdade/KazaQuiz(GitHub)/app/src/main/res/layout/activity_tela_principal.xml" value="0.3625" />
         <entry key="..\:/Users/gustavin/Documents/KazaQuiz (Github)/app/src/main/res/layout/activity_cadastro.xml" value="0.5" />
         <entry key="..\:/Users/gustavin/Documents/KazaQuiz (Github)/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gustavin/Documents/KazaQuiz (Github)/app/src/main/res/layout/activity_main.xml" value="0.5" />
