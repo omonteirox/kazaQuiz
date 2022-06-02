@@ -3,6 +3,7 @@
     <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
     <string name="fazer_cadastro">Realizar Cadastro</string>
     <string name="efetuar_login">Efetuar Login</string>
+    <string name="efetuar_logout">Efetuar LogOut</string>
     <string name="email">Insira seu E-mail:</string>
     <string name="senha">Insira sua Senha:</string>
     <string name="nome">Insira seu Nome Completo:</string>
