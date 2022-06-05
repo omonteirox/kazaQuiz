@@ -17,6 +17,13 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
+    <string name="qual_quiz_voc_vai_jogar">Qual quiz Você vai jogar:</string>
+    <string name="python">Python</string>
+    <string name="c">C++</string>
+    <string name="pergunta">Pergunta:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

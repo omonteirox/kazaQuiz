@@ -6,14 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".activityTelaPrincipal">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoCircular"
+        android:layout_width="307dp"
+        android:layout_height="222dp"
+        android:src="@drawable/pinterest_profile_image"
+        app:civ_border_color="#101010"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        tools:ignore="ImageContrastCheck" />
+
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#45C8DA"
-        android:onClick="realizarLogout"
         android:text="@string/efetuar_logout"
         android:textColor="#5D4037"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="418dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brnCplus"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/qual_quiz_voc_vai_jogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoCircular" />
+
+    <Button
+        android:id="@+id/btnPy"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#8045C8DA"
+        android:text="@string/python"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJogo" />
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#8045C8DA"
+        android:text="Java"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPy" />
+
+    <Button
+        android:id="@+id/btnCplus"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#8045C8DA"
+        android:text="@string/c"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJava" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

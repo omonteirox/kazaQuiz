@@ -21,4 +21,8 @@ public class activityTelaInicial extends AppCompatActivity {
         Intent intent = new Intent(this, activityCadastro.class);
         startActivity(intent);
     }
+    public void recuperarSenha(View v){
+        Intent intent = new Intent(this, activityRecuperarSenha.class);
+        startActivity(intent);
+    }
 }
