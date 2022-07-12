@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976103198465",
+    "project_id": "kazaquiz-943a0",
+    "storage_bucket": "kazaquiz-943a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976103198465:android:54f49fc0169a33b1b6d500",
+        "android_client_info": {
+          "package_name": "ifgoiano.kazaquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976103198465-bqp16tplbmlof6l42gqhjh78joi1f1pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh4iJwKqZThM5OEF7LlQondUHHj_mzpdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976103198465-bqp16tplbmlof6l42gqhjh78joi1f1pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

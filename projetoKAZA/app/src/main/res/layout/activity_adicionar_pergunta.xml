@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adicionarPerguntaActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoCircular"
+        android:layout_width="312dp"
+        android:layout_height="262dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="#101010"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="361dp"
+        android:layout_height="327dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoCircular">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="78dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Pergunta:"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toStartOf="@+id/txtPergunta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:text="Alternativa A"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/txtAlternativaA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:text="Alternativa B"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toStartOf="@+id/txtAlternativaB"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:text="Alternativa C"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toStartOf="@+id/txtAlterenativaC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:text="Alternativa D"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintEnd_toStartOf="@+id/txtAlternativaD"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="77dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="109dp"
+            android:gravity="center"
+            android:text="Texto da Alternativa Correta:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtCorreta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtPergunta"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a sua Pergunta"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/txtAlternativaA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtAlternativaA"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a Alternativa"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/txtAlternativaB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtAlternativaB"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a Alternativa"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/txtAlterenativaC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtAlterenativaC"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a Alternativa"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/txtAlternativaD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtAlternativaD"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a Alternativa"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/txtCorreta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtCorreta"
+            android:layout_width="205dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="135dp"
+            android:background="#F3F3F3"
+            android:ems="10"
+            android:hint="Digite a Alternativa"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnCriarQuestao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cor_cards_Padrao"
+            android:onClick="criarQuestao"
+            android:text="Criar Questão"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.874" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

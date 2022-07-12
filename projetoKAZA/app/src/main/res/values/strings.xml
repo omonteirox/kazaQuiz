@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">KazaQuiz</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="fazer_cadastro">Realizar Cadastro</string>
+    <string name="efetuar_login">Efetuar Login</string>
+    <string name="efetuar_logout">Sair</string>
+    <string name="email">Insira seu E-mail:</string>
+    <string name="senha">Insira sua Senha:</string>
+    <string name="nome">Insira seu Nome Completo:</string>
+    <string name="dataNasc">Insira sua data de nascimento:</string>
+    <string name="title_activity_tela_principal">activity_tela_principal</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
+    <string name="qual_quiz_voc_vai_jogar">Qual quiz Você vai jogar:</string>
+    <string name="python">Python</string>
+    <string name="c">C++</string>
+    <string name="pergunta">Pergunta:</string>
+</resources>
